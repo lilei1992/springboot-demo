@@ -6,13 +6,12 @@ import com.fsd.mybatis.service.UserService;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 /**
  * created by lilei
  * since 2019/7/6
  **/
-@Service
+//@Service
 public class UserServiceImpl implements UserService {
 
     @Autowired

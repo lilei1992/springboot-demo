@@ -1,0 +1,8 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: es   #指定服务名
+  data:
+    elasticsearch:
+      cluster-nodes: 127.0.0.1:9300
