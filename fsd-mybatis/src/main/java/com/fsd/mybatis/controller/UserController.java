@@ -31,7 +31,7 @@ public class UserController {
     @RequestMapping(value = "/getUser",method = RequestMethod.GET)
     @ApiOperation(value="获取用户详细信息", notes="获取所用用户信息")
     public Response<List<User>> getUser(User user){
-        Page<User> page = userService.queryUser(user.getPage(),user.getPageSize());
+       Page<User> page = userService.queryUser(user.getPage(),user.getPageSize());
         Response<List<User>> response  =  new Response<>();
         response.setData(page);
       return response;

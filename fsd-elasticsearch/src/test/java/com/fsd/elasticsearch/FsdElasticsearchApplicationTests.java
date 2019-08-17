@@ -1,31 +1,24 @@
 package com.fsd.elasticsearch;
 
-import com.fsd.elasticsearch.entity.Item;
-import com.fsd.elasticsearch.respository.ItemRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = FsdElasticsearchApplication.class)
 public class FsdElasticsearchApplicationTests {
+    @Test
+    public void contextLoads() {
+    }
 
-
-    @Autowired
+  /*  @Autowired
     ItemRepository itemRepository;
 
     @Autowired
     private ElasticsearchTemplate elasticsearchTemplate;
 
-    @Test
-    public void contextLoads() {
-    }
+
 
     @Test
     public void saveItem(){
@@ -37,10 +30,10 @@ public class FsdElasticsearchApplicationTests {
 
 
 
-    /**
+    *//**
      * @Description:准备测试数据
      * @Author: https://blog.csdn.net/chen_2890
-     */
+     *//*
     @Test
     public void insertList() {
         List<Item> list = new ArrayList<>();
@@ -64,7 +57,7 @@ public class FsdElasticsearchApplicationTests {
 
 
     }
-
+*/
 
 
 
